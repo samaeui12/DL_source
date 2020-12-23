@@ -1,0 +1,27 @@
+---
+
+name : ASTGCN
+
+etc_hyperparam :
+
+        K : 3
+
+structure:
+    
+    embedded_input : 5
+    embedded_output : 3
+    num_layer : 2
+    
+    layer1_input: 4
+    layer1_nb_chev_filter : 64
+    layer1_nb_time_filter : 64
+    layer1_time_strides : 1
+    
+    layer2_time_strides : 1
+    layer2_nb_chev_filter : 128
+    layer2_nb_time_filter : 128
+
+
+    
+
+    

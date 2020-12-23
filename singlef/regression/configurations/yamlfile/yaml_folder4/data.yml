@@ -1,0 +1,36 @@
+---
+
+
+    
+name: Tmap
+        
+type:
+        
+        # M is multifeature
+        # D is distance based
+        feature_type : M
+
+        adj_type : D
+
+dir:
+
+        adj_filename : data/Tmap/distance_table.csv
+        prod_traffic_m : data/Tmap/prod_data.npz
+        real_traffic : data/Tmap/real_data.npz
+    
+setting:
+        
+        num_of_weeks : 1
+        num_of_days : 1
+        num_of_hours : 1
+        num_of_vertices : 10
+        points_per_hour : 12
+        num_for_predict : 6
+        len_input : 12
+
+          
+ 
+...    
+        
+        
+        

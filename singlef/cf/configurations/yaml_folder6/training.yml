@@ -1,0 +1,18 @@
+---
+
+Device_info :
+
+    Device_type : GPU
+    GPU_COUNT : 1
+    ctx : 3
+
+Training_parameter:
+    
+    optimizer : RMSprop
+    lr_scheduler : Step_wise
+    loss : L2
+    learning_rate : 0.003
+    epochs : 200
+    batch_size : 32
+    
+   

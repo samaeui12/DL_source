@@ -1,0 +1,34 @@
+---
+
+
+    
+name: Tmap
+        
+type:
+        
+        # M is multifeature
+        # D is distance based
+        feature_type : M
+
+        adj_type : D
+
+dir:
+        adj_filename : data/Tmap/distance_table.csv
+        data : data/Tmap/cs_data.npz
+
+    
+setting:
+        
+        num_of_weeks : 1
+        num_of_days : 1
+        num_of_hours : 1
+        num_of_vertices : 10
+        points_per_hour : 12
+        num_for_predict : 2
+        len_input : 12
+
+          
+ 
+...    
+        
+        
